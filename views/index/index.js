@@ -1,4 +1,6 @@
-const API_URL = "http://127.0.0.1:8000/api/usuarios/";
+const API_URL = "https://infraapi.labinfra.cloud-ip.cc/api/usuarios/";
+
+
 
 async function listarUsuarios() {
   const res = await fetch(API_URL);
