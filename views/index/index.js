@@ -33,10 +33,10 @@ async function crearUsuario() {
   });
 
   if (res.ok) {
-    mostrarToast("Usuario creado correctamente ✅");
+    mostrarToast("Usuario creado correctamente ");
     listarUsuarios();
   } else {
-    mostrarToast("Error al crear usuario ❌");
+    mostrarToast("Error al crear usuario ");
   }
 }
 
